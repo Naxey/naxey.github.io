@@ -21,7 +21,13 @@ body {
     font-size: 1.35rem;
   }
 }
-h1, h2, h3, h4, h5, h6 {
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
   line-height: 1.1;
   font-family: Verdana, Geneva, sans-serif;
   font-weight: 700;
@@ -52,6 +58,9 @@ h5 {
 h6 {
   font-size: 1em;
 }
+p {
+    font-size: 0.8em;
+}
 
 /* Button */
 .button {
@@ -73,6 +82,14 @@ h6 {
 .button:active {
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
   transition-delay: 0s;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 /* Misc */
